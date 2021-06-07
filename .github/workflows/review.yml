@@ -1,0 +1,22 @@
+name: PR Review
+
+on:
+  pull_request:
+    branches:
+      - '**'
+
+jobs:
+  test:
+    name: test
+    runs-on: ubuntu-latest
+    steps:
+      - name: test
+        uses: golang:1.16
+        run: go test -v ./...
+
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+    - name: Run golangci-lint
+      uses: golangci/golangci-lint-action@v2.5.2
