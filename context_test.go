@@ -12,13 +12,13 @@ func TestUnmarshalContext(t *testing.T) {
 	t.Run("instant period | no segments", func(t *testing.T) {
 		// language=xml
 		contextXML := `<context id="i132ffb9faa364951a8fec32b601d621b_I20210416">
-							<entity>
-								<identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
-							</entity>
-							<period>
-								<instant>2021-04-16</instant>
-							</period>
-						</context>`
+    <entity>
+        <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+    </entity>
+    <period>
+        <instant>2021-04-16</instant>
+    </period>
+</context>`
 
 		var context Context
 		require.NoError(t, xml.Unmarshal([]byte(contextXML), &context))
@@ -32,13 +32,13 @@ func TestUnmarshalContext(t *testing.T) {
 	t.Run("forever period | no segments", func(t *testing.T) {
 		// language=xml
 		contextXML := `<context id="i132ffb9faa364951a8fec32b601d621b_I20210416">
-							<entity>
-								<identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
-							</entity>
-							<period>
-								<forever/>
-							</period>
-						</context>`
+    <entity>
+        <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+    </entity>
+    <period>
+        <forever/>
+    </period>
+</context>`
 
 		var context Context
 		require.NoError(t, xml.Unmarshal([]byte(contextXML), &context))
@@ -51,18 +51,18 @@ func TestUnmarshalContext(t *testing.T) {
 	t.Run("duration period | has segments", func(t *testing.T) {
 		// language=xml
 		contextXML := `<context id="iff44040cd61344d085f7a2b7a1076cb1_D20200927-20210327">
-							<entity>
-								<identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
-								<segment>
-									<xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
-									<myns:cool_segment>I follow my own rules</myns:cool_segment>
-								</segment>
-							</entity>
-							<period>
-								<startDate>2020-09-27</startDate>
-								<endDate>2021-03-27</endDate>
-							</period>
-						</context>`
+    <entity>
+        <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+        <segment>
+            <xbrldi:explicitMember dimension="us-gaap:StatementClassOfStockAxis">us-gaap:CommonStockMember</xbrldi:explicitMember>
+            <myns:cool_segment>I follow my own rules</myns:cool_segment>
+        </segment>
+    </entity>
+    <period>
+        <startDate>2020-09-27</startDate>
+        <endDate>2021-03-27</endDate>
+    </period>
+</context>`
 
 		var context Context
 		require.NoError(t, xml.Unmarshal([]byte(contextXML), &context))
