@@ -70,7 +70,7 @@ The fact in the above example references a context called "c1", let's see what t
 </context>
 ```
 
-With the information in this context, we now know that in Q1 of 2021 (between 2020-12-27 and 2021-02-37), Apple Inc.'s (CIK 0000320193) EPS was 1.41.
+With the information in this context, we now know that in Q1 of 2021 (between 2020-12-27 and 2021-03-27), Apple Inc.'s (CIK 0000320193) EPS was 1.41.
 
 We're closer to having a useful piece of information now, but there's one thing we're still missing.
 EPS is 1.41...what? What unit are we measuring it in?
@@ -115,7 +115,7 @@ This unit is a ratio of two simple units: USD / shares.
 
 And with that we now fully understand the fact from the example above:
 
-In Q1 of 2021 (between 2020-12-27 and 2021-02-37), Apple Inc.'s (CIK 0000320193) EPS was 1.41 dollars per share.
+In Q1 of 2021 (between 2020-12-27 and 2021-03-27), Apple Inc.'s (CIK 0000320193) EPS was 1.41 dollars per share.
 
 ---
 
