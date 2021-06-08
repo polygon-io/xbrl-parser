@@ -49,6 +49,7 @@ func (m Measure) String() string {
 	return m.Value
 }
 
+// String returns a human readable representation of the product of all the `Measure`s in this slice.
 func (m Measures) String() string {
 	// More than one Measure implies multiplication.
 	var builder strings.Builder
