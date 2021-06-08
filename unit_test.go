@@ -11,12 +11,12 @@ import (
 func TestUnmarshalUnit(t *testing.T) {
 	t.Run("simple unit", func(t *testing.T) {
 		// language=xml
-		unitXml := `<unit>
+		unitXML := `<unit>
 			<measure>shares</measure>
 		</unit>`
 
 		var unit Unit
-		require.NoError(t, xml.Unmarshal([]byte(unitXml), &unit))
+		require.NoError(t, xml.Unmarshal([]byte(unitXML), &unit))
 
 		require.Len(t, unit.Measures, 1)
 		assert.Equal(t, "shares", unit.Measures[0].Value)
@@ -28,13 +28,13 @@ func TestUnmarshalUnit(t *testing.T) {
 
 	t.Run("product of measures", func(t *testing.T) {
 		// language=xml
-		unitXml := `<unit>
+		unitXML := `<unit>
 			<measure>myns:feet</measure>
 			<measure>myns:feet</measure>
 		</unit>`
 
 		var unit Unit
-		require.NoError(t, xml.Unmarshal([]byte(unitXml), &unit))
+		require.NoError(t, xml.Unmarshal([]byte(unitXML), &unit))
 
 		require.Len(t, unit.Measures, 2)
 		assert.Equal(t, "myns:feet", unit.Measures[0].Value)
@@ -50,7 +50,7 @@ func TestUnmarshalUnit(t *testing.T) {
 
 	t.Run("ratio of simple measures", func(t *testing.T) {
 		// language=xml
-		unitXml := `<unit>
+		unitXML := `<unit>
 			<divide>
 				<unitNumerator>
 					<measure>iso4127:USD</measure>
@@ -62,7 +62,7 @@ func TestUnmarshalUnit(t *testing.T) {
 		</unit>`
 
 		var unit Unit
-		require.NoError(t, xml.Unmarshal([]byte(unitXml), &unit))
+		require.NoError(t, xml.Unmarshal([]byte(unitXML), &unit))
 
 		require.Len(t, unit.Measures, 0)
 
@@ -78,7 +78,7 @@ func TestUnmarshalUnit(t *testing.T) {
 
 	t.Run("ratio of products of measures", func(t *testing.T) {
 		// language=xml
-		unitXml := `<unit>
+		unitXML := `<unit>
 			<divide>
 				<unitNumerator>
 					<measure>iso4127:USD</measure>
@@ -91,7 +91,7 @@ func TestUnmarshalUnit(t *testing.T) {
 		</unit>`
 
 		var unit Unit
-		require.NoError(t, xml.Unmarshal([]byte(unitXml), &unit))
+		require.NoError(t, xml.Unmarshal([]byte(unitXML), &unit))
 
 		require.Len(t, unit.Measures, 0)
 
