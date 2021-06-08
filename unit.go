@@ -4,6 +4,13 @@ import "strings"
 
 // Unit specifies the unit in which a numeric fact has been measured.
 // A Unit can be either a simple measure, product of measures, or a ratio of products of measures with a numerator and a denominator.
+//
+// A simple unit that represents shares looks like:
+// <unit>
+//     <measure>shares</measure>
+// </unit>
+//
+// Numeric Facts reference units by ID via the Fact's `unitRef` attribute.
 // https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html#_4.8
 type Unit struct {
 	ID       string   `xml:"id,attr"`
