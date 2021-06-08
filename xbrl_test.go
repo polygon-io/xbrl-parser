@@ -2,6 +2,7 @@ package xbrl
 
 import (
 	"encoding/xml"
+	"io"
 	"os"
 	"testing"
 
@@ -10,7 +11,7 @@ import (
 )
 
 func TestUnmarshalXBRL(t *testing.T) {
-	t.Run("real-world modern xbrl", func(t *testing.T) {
+	t.Run("real-world xbrl from 2021", func(t *testing.T) {
 		f, err := os.Open("test_data/aapl-20210327_htm.xml")
 		require.NoError(t, err)
 		defer f.Close()
@@ -20,6 +21,31 @@ func TestUnmarshalXBRL(t *testing.T) {
 
 		require.NoError(t, decoder.Decode(&content))
 		require.NoError(t, content.Validate())
+
+		// Not using assert.Len here because with the output is painful for large maps/slices
+		assert.Equal(t, 283, len(content.ContextsByID))
+		assert.Equal(t, 9, len(content.UnitsByID))
+		assert.Equal(t, 1070, len(content.Facts))
+	})
+
+	t.Run("real-world xbrl from 2004", func(t *testing.T) {
+		f, err := os.Open("test_data/edgr-2004_10k.xml") // The very first XBRL submission to the SEC!
+		require.NoError(t, err)
+		defer f.Close()
+
+		var content XBRL
+		decoder := xml.NewDecoder(f)
+		decoder.CharsetReader = func(charset string, input io.Reader) (io.Reader, error) {
+			return input, nil
+		}
+
+		require.NoError(t, decoder.Decode(&content))
+		require.NoError(t, content.Validate())
+
+		// Not using assert.Len here because with the output is painful for large maps/slices
+		assert.Equal(t, 4, len(content.ContextsByID))
+		assert.Equal(t, 2, len(content.UnitsByID))
+		assert.Equal(t, 154, len(content.Facts))
 	})
 
 	t.Run("simple xbrl happy path", func(t *testing.T) {
