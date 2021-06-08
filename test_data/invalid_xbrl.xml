@@ -1,0 +1,4 @@
+<xbrl xmlns:ci="http://www.xbrl.org/us/gaap/ci/2003/usfr-ci-2003">
+    <!-- Missing context and unit ref!!   -->
+    <ci:assets precision="3" unitRef="u1" contextRef="c1">727</ci:assets>
+</xbrl>

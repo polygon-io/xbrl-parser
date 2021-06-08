@@ -64,10 +64,10 @@ type PeriodType string
 
 // All the supported PeriodType values. See Period.Type() for more information.
 const (
-	Duration PeriodType = "duration"
-	Instant  PeriodType = "instant"
-	Forever  PeriodType = "forever"
-	Invalid  PeriodType = "invalid"
+	PeriodTypeDuration PeriodType = "duration"
+	PeriodTypeInstant  PeriodType = "instant"
+	PeriodTypeForever  PeriodType = "forever"
+	PeriodTypeInvalid  PeriodType = "invalid"
 )
 
 // Period contains an instant or interval of time for a Context.
@@ -91,16 +91,16 @@ type Period struct {
 // The comments on the attributes inside the Period struct explain when they can be used depending on what this function returns.
 func (p Period) Type() PeriodType {
 	if p.Forever != nil {
-		return Forever
+		return PeriodTypeForever
 	}
 
 	if p.Instant != nil {
-		return Instant
+		return PeriodTypeInstant
 	}
 
 	if p.StartDate != nil && p.EndDate != nil {
-		return Duration
+		return PeriodTypeDuration
 	}
 
-	return Invalid
+	return PeriodTypeInvalid
 }
