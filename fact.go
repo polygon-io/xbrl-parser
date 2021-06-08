@@ -44,10 +44,10 @@ const (
 var ErrNonNumericFactType = errors.New("fact is not of type FactTypeFraction or FactTypeNonFraction")
 
 // Fact represents an item in an XBRL document.
-// A Fact is a simple value which is tied to a context that gives the fact more meaning.
+// A Fact is a single value which is tied to a context that gives the fact more meaning.
 //
 // This struct contains fields that may or may not be nil depending on what type of Fact you're dealing with.
-// See Fact.Type() to determine what type of fact you're dealing with.
+// See Fact.Type() to determine what type of fact you're dealing with, and Fact.IsValid() to be confident all the expected fields exist.
 // Then the various FactTypes to understand what fields in this struct are expected to exist for each FactType.
 //
 // For general information and details on XBRL Facts, see here:
