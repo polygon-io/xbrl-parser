@@ -25,7 +25,7 @@ func TestUnmarshalContext(t *testing.T) {
 
 		assert.Equal(t, "http://www.sec.gov/CIK", context.Entity.Identifier.Scheme)
 		assert.Equal(t, "0000320193", context.Entity.Identifier.Value)
-		assert.Equal(t, Instant, context.Period.Type())
+		assert.Equal(t, PeriodTypeInstant, context.Period.Type())
 		assert.Equal(t, "2021-04-16", *context.Period.Instant)
 	})
 
@@ -45,7 +45,7 @@ func TestUnmarshalContext(t *testing.T) {
 
 		assert.Equal(t, "http://www.sec.gov/CIK", context.Entity.Identifier.Scheme)
 		assert.Equal(t, "0000320193", context.Entity.Identifier.Value)
-		assert.Equal(t, Forever, context.Period.Type())
+		assert.Equal(t, PeriodTypeForever, context.Period.Type())
 	})
 
 	t.Run("duration period | has segments", func(t *testing.T) {
@@ -79,7 +79,7 @@ func TestUnmarshalContext(t *testing.T) {
 		assert.Empty(t, context.Entity.Segments[1].Attributes)
 		assert.Equal(t, "I follow my own rules", context.Entity.Segments[1].Value)
 
-		assert.Equal(t, Duration, context.Period.Type())
+		assert.Equal(t, PeriodTypeDuration, context.Period.Type())
 		assert.Equal(t, "2020-09-27", *context.Period.StartDate)
 		assert.Equal(t, "2021-03-27", *context.Period.EndDate)
 	})

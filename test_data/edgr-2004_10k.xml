@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<xbrli:xbrl xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xbrll="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:usfr-pte="http://www.xbrl.org/us/fr/common/pte/2005-02-28" xmlns:edgr-ci="http://imetrix.edgar-online.com/taxonomy/edgr-us-gaap-ci/2005-02-28" xmlns:iso4217="http://www.xbrl.org/2003/iso4217" xmlns:us-gaap-ci="http://www.xbrl.org/us/fr/gaap/ci/2005-02-28">
+<xbrll:schemaRef xlink:type="simple" xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="edgr-20050228.xsd" />
+<usfr-pte:AccountsPayable decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">995000</usfr-pte:AccountsPayable>
+<usfr-pte:AccountsReceivableTradeNet decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">1895000</usfr-pte:AccountsReceivableTradeNet>
+<usfr-pte:AdditionalPaidCapital decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">62378000</usfr-pte:AdditionalPaidCapital>
+<usfr-pte:Assets decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">18606000</usfr-pte:Assets>
+<usfr-pte:CashCashEquivalents decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">2678000</usfr-pte:CashCashEquivalents>
+<usfr-pte:CommonStockValue decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">226000</usfr-pte:CommonStockValue>
+<usfr-pte:CurrentLiabilities decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">4193000</usfr-pte:CurrentLiabilities>
+<usfr-pte:DeferredUnearnedRevenueCurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">2581000</usfr-pte:DeferredUnearnedRevenueCurrent>
+<usfr-pte:IntangibleAssetsExcludingGoodwillNet decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">7936000</usfr-pte:IntangibleAssetsExcludingGoodwillNet>
+<usfr-pte:IntangibleAssetsGoodwill decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">2189000</usfr-pte:IntangibleAssetsGoodwill>
+<usfr-pte:InterestPayable decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">0</usfr-pte:InterestPayable>
+<usfr-pte:Liabilities decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">4193000</usfr-pte:Liabilities>
+<usfr-pte:LiabilitiesStockholdersEquity decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">18606000</usfr-pte:LiabilitiesStockholdersEquity>
+<usfr-pte:NotesPayableCurrentPortion decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">0</usfr-pte:NotesPayableCurrentPortion>
+<usfr-pte:OtherAccruedExpenses decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">617000</usfr-pte:OtherAccruedExpenses>
+<usfr-pte:OtherAssetsNoncurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">441000</usfr-pte:OtherAssetsNoncurrent>
+<usfr-pte:OtherCurrentAssets decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">329000</usfr-pte:OtherCurrentAssets>
+<usfr-pte:PreferredStockValue decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">0</usfr-pte:PreferredStockValue>
+<usfr-pte:PropertyPlantEquipmentNet decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">1138000</usfr-pte:PropertyPlantEquipmentNet>
+<usfr-pte:RetainedEarnings decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">-46310000</usfr-pte:RetainedEarnings>
+<usfr-pte:ShortTermInvestments decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">2000000</usfr-pte:ShortTermInvestments>
+<usfr-pte:StockholdersEquity decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">14413000</usfr-pte:StockholdersEquity>
+<usfr-pte:TotalCurrentAssets decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">6902000</usfr-pte:TotalCurrentAssets>
+<usfr-pte:TreasuryStockValueTotal decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">1881000</usfr-pte:TreasuryStockValueTotal>
+<edgr-ci:OtherPayableNoncurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="USD">0</edgr-ci:OtherPayableNoncurrent>
+<usfr-pte:AdjustmentsReconcileNetIncomeLossNetCashProvidedUsedOperations decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1128000</usfr-pte:AdjustmentsReconcileNetIncomeLossNetCashProvidedUsedOperations>
+<usfr-pte:ChangeInterestPayableNet decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-26000</usfr-pte:ChangeInterestPayableNet>
+<usfr-pte:ChangeShortTermInvestments decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-2000000</usfr-pte:ChangeShortTermInvestments>
+<usfr-pte:DeferredRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">541000</usfr-pte:DeferredRevenue>
+<usfr-pte:NetCashFlowsProvidedUsedFinancingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">2213000</usfr-pte:NetCashFlowsProvidedUsedFinancingActivities>
+<usfr-pte:NetCashFlowsProvidedUsedOperatingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-1038000</usfr-pte:NetCashFlowsProvidedUsedOperatingActivities>
+<usfr-pte:NetCashFlowsProvidedUsedInvestingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-2357000</usfr-pte:NetCashFlowsProvidedUsedInvestingActivities>
+<usfr-pte:NetIncreaseDecreaseCashCashEquivalents decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-1182000</usfr-pte:NetIncreaseDecreaseCashCashEquivalents>
+<usfr-pte:NoncashExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-1550000</usfr-pte:NoncashExpenses>
+<usfr-pte:OtherChangesNet decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-45000</usfr-pte:OtherChangesNet>
+<usfr-pte:ProceedsIssuanceCommonStock decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">4110000</usfr-pte:ProceedsIssuanceCommonStock>
+<usfr-pte:ProceedsStockOptionsExercised decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">3000</usfr-pte:ProceedsStockOptionsExercised>
+<usfr-pte:ReductionCapitalLeaseObligations decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</usfr-pte:ReductionCapitalLeaseObligations>
+<usfr-pte:RepaymentsNotesPayable decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1900000</usfr-pte:RepaymentsNotesPayable>
+<edgr-ci:AdjustmentEmployeeCompensation decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</edgr-ci:AdjustmentEmployeeCompensation>
+<edgr-ci:CashCashEquivalentsBeginningYear decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">3860000</edgr-ci:CashCashEquivalentsBeginningYear>
+<edgr-ci:CashCashEquivalentsEndYear decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">2678000</edgr-ci:CashCashEquivalentsEndYear>
+<edgr-ci:ChangeAccountsReceivable decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-743000</edgr-ci:ChangeAccountsReceivable>
+<edgr-ci:FinancingCosts decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</edgr-ci:FinancingCosts>
+<edgr-ci:SupplementalOtherCashPayments decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">26000</edgr-ci:SupplementalOtherCashPayments>
+<edgr-ci:AdjustmentAmortization decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</edgr-ci:AdjustmentAmortization>
+<edgr-ci:AdjustmentAmortizationIntangibles decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1529000</edgr-ci:AdjustmentAmortizationIntangibles>
+<edgr-ci:AdjustmentCumulativeEffectChangeAccountingPrinciple decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</edgr-ci:AdjustmentCumulativeEffectChangeAccountingPrinciple>
+<edgr-ci:AdjustmentDepreciation decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">696000</edgr-ci:AdjustmentDepreciation>
+<edgr-ci:AdjustmentProvisionDoubtfulAccounts decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">278000</edgr-ci:AdjustmentProvisionDoubtfulAccounts>
+<edgr-ci:ChangeOtherAccountsPayableAccruedExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">551000</edgr-ci:ChangeOtherAccountsPayableAccruedExpenses>
+<edgr-ci:ChangesOtherAccountsPayable decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-103000</edgr-ci:ChangesOtherAccountsPayable>
+<edgr-ci:PurchasePropertyPlantEquipment decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">357000</edgr-ci:PurchasePropertyPlantEquipment>
+<usfr-pte:CostGoodsServicesSold decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1898000</usfr-pte:CostGoodsServicesSold>
+<usfr-pte:CumulativeEffectChangeAccountingPrincipleNetTaxEffect decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</usfr-pte:CumulativeEffectChangeAccountingPrincipleNetTaxEffect>
+<usfr-pte:DepreciationAmortization decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">2226000</usfr-pte:DepreciationAmortization>
+<usfr-pte:GrossProfit decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">10987000</usfr-pte:GrossProfit>
+<usfr-pte:IncomeBeforeCumulativeEffectChangeAccountingPrinciple decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-2166000</usfr-pte:IncomeBeforeCumulativeEffectChangeAccountingPrinciple>
+<usfr-pte:InterestIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">39000</usfr-pte:InterestIncome>
+<usfr-pte:NetIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-2166000</usfr-pte:NetIncome>
+<usfr-pte:OperatingProfit decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-3406000</usfr-pte:OperatingProfit>
+<usfr-pte:OperatingRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">12885000</usfr-pte:OperatingRevenue>
+<usfr-pte:OtherGeneralAdministrativeExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">7965000</usfr-pte:OtherGeneralAdministrativeExpenses>
+<usfr-pte:OtherNonOperatingIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1203000</usfr-pte:OtherNonOperatingIncome>
+<usfr-pte:ResearchDevelopmentExpenseExcludingProcess decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">1600000</usfr-pte:ResearchDevelopmentExpenseExcludingProcess>
+<usfr-pte:RestructuringCharges decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</usfr-pte:RestructuringCharges>
+<usfr-pte:SellingMarketingExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">2602000</usfr-pte:SellingMarketingExpenses>
+<usfr-pte:InterestExpense decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">2000</usfr-pte:InterestExpense>
+<edgr-ci:TotalOperatingExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">14393000</edgr-ci:TotalOperatingExpenses>
+<edgr-ci:WeightedAverageNumberBasicDilutedSharesOutstanding decimals="-3" contextRef="edgr_4473_inst_YTD_20041231" unitRef="share">20254000</edgr-ci:WeightedAverageNumberBasicDilutedSharesOutstanding>
+<edgr-ci:BasicDilutedEarningsPerShareNetIncome decimals="2" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-0.11</edgr-ci:BasicDilutedEarningsPerShareNetIncome>
+<edgr-ci:IncomeBeforeCumulativeEffectChangeAccountingPrinciplePerBasicDilutedShare decimals="2" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">-0.11</edgr-ci:IncomeBeforeCumulativeEffectChangeAccountingPrinciplePerBasicDilutedShare>
+<edgr-ci:CumulativeEffectChangeAccountingPrincipleNetTaxEffectPerBasicDilutedShare decimals="2" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">0</edgr-ci:CumulativeEffectChangeAccountingPrincipleNetTaxEffectPerBasicDilutedShare>
+<edgr-ci:SubscriptionRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">6919000</edgr-ci:SubscriptionRevenue>
+<edgr-ci:DataSalesRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">4575000</edgr-ci:DataSalesRevenue>
+<edgr-ci:AdvertisingRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">568000</edgr-ci:AdvertisingRevenue>
+<edgr-ci:TechnicalServicesRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20041231" unitRef="USD">823000</edgr-ci:TechnicalServicesRevenue>
+<xbrli:context id="edgr_4473_YTD_p12m_20041231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">0001080224</xbrli:identifier></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2004-01-01</xbrli:startDate>
+<xbrli:endDate>2004-12-31</xbrli:endDate></xbrli:period>
+</xbrli:context>
+<xbrli:context id="edgr_4473_inst_YTD_20041231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">0001080224</xbrli:identifier></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2004-12-31</xbrli:instant></xbrli:period>
+</xbrli:context>
+<xbrli:unit id="USD">
+<xbrli:measure>iso4217:USD</xbrli:measure></xbrli:unit>
+<xbrli:unit id="share">
+<xbrli:measure>xbrli:shares</xbrli:measure></xbrli:unit>
+<usfr-pte:AccountsPayable decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">361000</usfr-pte:AccountsPayable>
+<usfr-pte:AccountsReceivableTradeNet decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">1430000</usfr-pte:AccountsReceivableTradeNet>
+<usfr-pte:AdditionalPaidCapital decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">58319000</usfr-pte:AdditionalPaidCapital>
+<usfr-pte:Assets decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">19145000</usfr-pte:Assets>
+<usfr-pte:CashCashEquivalents decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">3860000</usfr-pte:CashCashEquivalents>
+<usfr-pte:CommonStockValue decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">172000</usfr-pte:CommonStockValue>
+<usfr-pte:CurrentLiabilities decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">5027000</usfr-pte:CurrentLiabilities>
+<usfr-pte:DeferredUnearnedRevenueCurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">2040000</usfr-pte:DeferredUnearnedRevenueCurrent>
+<usfr-pte:IntangibleAssetsExcludingGoodwillNet decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">9465000</usfr-pte:IntangibleAssetsExcludingGoodwillNet>
+<usfr-pte:IntangibleAssetsGoodwill decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">2189000</usfr-pte:IntangibleAssetsGoodwill>
+<usfr-pte:InterestPayable decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">26000</usfr-pte:InterestPayable>
+<usfr-pte:Liabilities decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">5130000</usfr-pte:Liabilities>
+<usfr-pte:LiabilitiesStockholdersEquity decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">19145000</usfr-pte:LiabilitiesStockholdersEquity>
+<usfr-pte:NotesPayableCurrentPortion decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">1900000</usfr-pte:NotesPayableCurrentPortion>
+<usfr-pte:OtherAccruedExpenses decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">700000</usfr-pte:OtherAccruedExpenses>
+<usfr-pte:OtherAssetsNoncurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">285000</usfr-pte:OtherAssetsNoncurrent>
+<usfr-pte:OtherCurrentAssets decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">439000</usfr-pte:OtherCurrentAssets>
+<usfr-pte:PreferredStockValue decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">0</usfr-pte:PreferredStockValue>
+<usfr-pte:PropertyPlantEquipmentNet decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">1477000</usfr-pte:PropertyPlantEquipmentNet>
+<usfr-pte:RetainedEarnings decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">-44144000</usfr-pte:RetainedEarnings>
+<usfr-pte:ShortTermInvestments decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">0</usfr-pte:ShortTermInvestments>
+<usfr-pte:StockholdersEquity decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">14015000</usfr-pte:StockholdersEquity>
+<usfr-pte:TotalCurrentAssets decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">5729000</usfr-pte:TotalCurrentAssets>
+<usfr-pte:TreasuryStockValueTotal decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">332000</usfr-pte:TreasuryStockValueTotal>
+<edgr-ci:OtherPayableNoncurrent decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="USD">103000</edgr-ci:OtherPayableNoncurrent>
+<usfr-pte:AdjustmentsReconcileNetIncomeLossNetCashProvidedUsedOperations decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">2841000</usfr-pte:AdjustmentsReconcileNetIncomeLossNetCashProvidedUsedOperations>
+<usfr-pte:ChangeInterestPayableNet decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-23000</usfr-pte:ChangeInterestPayableNet>
+<usfr-pte:ChangeShortTermInvestments decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</usfr-pte:ChangeShortTermInvestments>
+<usfr-pte:DeferredRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">296000</usfr-pte:DeferredRevenue>
+<usfr-pte:NetCashFlowsProvidedUsedFinancingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-1764000</usfr-pte:NetCashFlowsProvidedUsedFinancingActivities>
+<usfr-pte:NetCashFlowsProvidedUsedOperatingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">674000</usfr-pte:NetCashFlowsProvidedUsedOperatingActivities>
+<usfr-pte:NetCashFlowsProvidedUsedInvestingActivities decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-600000</usfr-pte:NetCashFlowsProvidedUsedInvestingActivities>
+<usfr-pte:NetIncreaseDecreaseCashCashEquivalents decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-1690000</usfr-pte:NetIncreaseDecreaseCashCashEquivalents>
+<usfr-pte:NoncashExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</usfr-pte:NoncashExpenses>
+<usfr-pte:OtherChangesNet decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">18000</usfr-pte:OtherChangesNet>
+<usfr-pte:ProceedsIssuanceCommonStock decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</usfr-pte:ProceedsIssuanceCommonStock>
+<usfr-pte:ProceedsStockOptionsExercised decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">143000</usfr-pte:ProceedsStockOptionsExercised>
+<usfr-pte:ReductionCapitalLeaseObligations decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">7000</usfr-pte:ReductionCapitalLeaseObligations>
+<usfr-pte:RepaymentsNotesPayable decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">1900000</usfr-pte:RepaymentsNotesPayable>
+<edgr-ci:AdjustmentEmployeeCompensation decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</edgr-ci:AdjustmentEmployeeCompensation>
+<edgr-ci:CashCashEquivalentsBeginningYear decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">5550000</edgr-ci:CashCashEquivalentsBeginningYear>
+<edgr-ci:CashCashEquivalentsEndYear decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">3860000</edgr-ci:CashCashEquivalentsEndYear>
+<edgr-ci:ChangeAccountsReceivable decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">159000</edgr-ci:ChangeAccountsReceivable>
+<edgr-ci:FinancingCosts decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</edgr-ci:FinancingCosts>
+<edgr-ci:SupplementalOtherCashPayments decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">206000</edgr-ci:SupplementalOtherCashPayments>
+<edgr-ci:AdjustmentAmortization decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">22000</edgr-ci:AdjustmentAmortization>
+<edgr-ci:AdjustmentAmortizationIntangibles decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">1687000</edgr-ci:AdjustmentAmortizationIntangibles>
+<edgr-ci:AdjustmentCumulativeEffectChangeAccountingPrinciple decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</edgr-ci:AdjustmentCumulativeEffectChangeAccountingPrinciple>
+<edgr-ci:AdjustmentDepreciation decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">816000</edgr-ci:AdjustmentDepreciation>
+<edgr-ci:AdjustmentProvisionDoubtfulAccounts decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-28000</edgr-ci:AdjustmentProvisionDoubtfulAccounts>
+<edgr-ci:ChangeOtherAccountsPayableAccruedExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-209000</edgr-ci:ChangeOtherAccountsPayableAccruedExpenses>
+<edgr-ci:ChangesOtherAccountsPayable decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">103000</edgr-ci:ChangesOtherAccountsPayable>
+<edgr-ci:PurchasePropertyPlantEquipment decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">600000</edgr-ci:PurchasePropertyPlantEquipment>
+<usfr-pte:CostGoodsServicesSold decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">1979000</usfr-pte:CostGoodsServicesSold>
+<usfr-pte:CumulativeEffectChangeAccountingPrincipleNetTaxEffect decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</usfr-pte:CumulativeEffectChangeAccountingPrincipleNetTaxEffect>
+<usfr-pte:DepreciationAmortization decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">2503000</usfr-pte:DepreciationAmortization>
+<usfr-pte:GrossProfit decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">12340000</usfr-pte:GrossProfit>
+<usfr-pte:IncomeBeforeCumulativeEffectChangeAccountingPrinciple decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-2167000</usfr-pte:IncomeBeforeCumulativeEffectChangeAccountingPrinciple>
+<usfr-pte:InterestIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">54000</usfr-pte:InterestIncome>
+<usfr-pte:NetIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-2167000</usfr-pte:NetIncome>
+<usfr-pte:OperatingProfit decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-2033000</usfr-pte:OperatingProfit>
+<usfr-pte:OperatingRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">14319000</usfr-pte:OperatingRevenue>
+<usfr-pte:OtherGeneralAdministrativeExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">7222000</usfr-pte:OtherGeneralAdministrativeExpenses>
+<usfr-pte:OtherNonOperatingIncome decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</usfr-pte:OtherNonOperatingIncome>
+<usfr-pte:ResearchDevelopmentExpenseExcludingProcess decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">1699000</usfr-pte:ResearchDevelopmentExpenseExcludingProcess>
+<usfr-pte:RestructuringCharges decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">784000</usfr-pte:RestructuringCharges>
+<usfr-pte:SellingMarketingExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">2165000</usfr-pte:SellingMarketingExpenses>
+<usfr-pte:InterestExpense decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">188000</usfr-pte:InterestExpense>
+<edgr-ci:TotalOperatingExpenses decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">14373000</edgr-ci:TotalOperatingExpenses>
+<edgr-ci:WeightedAverageNumberBasicDilutedSharesOutstanding decimals="-3" contextRef="edgr_4473_inst_YTD_20031231" unitRef="share">16976000</edgr-ci:WeightedAverageNumberBasicDilutedSharesOutstanding>
+<edgr-ci:BasicDilutedEarningsPerShareNetIncome decimals="2" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-0.13</edgr-ci:BasicDilutedEarningsPerShareNetIncome>
+<edgr-ci:IncomeBeforeCumulativeEffectChangeAccountingPrinciplePerBasicDilutedShare decimals="2" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">-0.13</edgr-ci:IncomeBeforeCumulativeEffectChangeAccountingPrinciplePerBasicDilutedShare>
+<edgr-ci:CumulativeEffectChangeAccountingPrincipleNetTaxEffectPerBasicDilutedShare decimals="2" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">0</edgr-ci:CumulativeEffectChangeAccountingPrincipleNetTaxEffectPerBasicDilutedShare>
+<edgr-ci:SubscriptionRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">5953000</edgr-ci:SubscriptionRevenue>
+<edgr-ci:DataSalesRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">4833000</edgr-ci:DataSalesRevenue>
+<edgr-ci:AdvertisingRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">728000</edgr-ci:AdvertisingRevenue>
+<edgr-ci:TechnicalServicesRevenue decimals="-3" contextRef="edgr_4473_YTD_p12m_20031231" unitRef="USD">2805000</edgr-ci:TechnicalServicesRevenue>
+<xbrli:context id="edgr_4473_YTD_p12m_20031231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">0001080224</xbrli:identifier></xbrli:entity>
+<xbrli:period>
+<xbrli:startDate>2003-01-01</xbrli:startDate>
+<xbrli:endDate>2003-12-31</xbrli:endDate></xbrli:period>
+</xbrli:context>
+<xbrli:context id="edgr_4473_inst_YTD_20031231">
+<xbrli:entity>
+<xbrli:identifier scheme="http://www.sec.gov/CIK">0001080224</xbrli:identifier></xbrli:entity>
+<xbrli:period>
+<xbrli:instant>2003-12-31</xbrli:instant></xbrli:period>
+</xbrli:context>
+</xbrli:xbrl>

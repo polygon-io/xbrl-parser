@@ -1,0 +1,25 @@
+<xbrl
+        xmlns:link="http://www.xbrl.org/2003/linkbase"
+        xmlns:ci="http://www.xbrl.org/us/gaap/ci/2003/usfr-ci-2003"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns="http://www.xbrl.org/2003/instance"
+        xsi:schemaLocation=" http://www.xbrl.org/taxonomy/int/fr/ias/ci/pfs/2002-11-15 ias-ci-pfs-2002-11-15.xsd">
+    <link:schemaRef xlink:type="simple" xlink:href="http://www.xbrl.org/us/fr/ci/2000-07-31/usfr-ci-2003.xsd"/>
+
+    <context id="c1">
+        <entity>
+            <identifier scheme="http://www.sec.gov/CIK">0000320193</identifier>
+        </entity>
+        <period>
+            <instant>2021-04-16</instant>
+        </period>
+    </context>
+
+    <ci:assets precision="3" unitRef="u1" contextRef="c1">727</ci:assets>
+    <fakens:textItem contextRef="c1">this is a text item</fakens:textItem>
+
+    <unit id="u1">
+        <measure>shares</measure>
+    </unit>
+</xbrl>
