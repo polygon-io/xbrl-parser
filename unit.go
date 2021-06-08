@@ -11,15 +11,30 @@ type Unit struct {
 	Divide   *Divide  `xml:"divide"`
 }
 
-// Divide is represents a complex Unit that has a numerator and a denominator.
-// For example, you can represent a complex unit like earnings per share (EPS) as dollars per share (USD / share).
+// Divide represents a ratios of Units that has a numerator and a denominator.
+// For example, XBRL can represent a complex unit like earnings per share (EPS) as dollars per share (USD / share):
+// <unit>
+//     <divide>
+//	       <unitNumerator>
+//             <measure>iso4127:USD</measure>
+//         </unitNumerator>
+//         <unitDenominator>
+//             <measure>shares</measure>
+//         </unitDenominator>
+//     </divide>
+// </unit>
+//
 // https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html#_4.8.2
 type Divide struct {
 	Numerator   Measures `xml:"unitNumerator>measure"`
 	Denominator Measures `xml:"unitDenominator>measure"`
 }
 
-// Measure represents a unit of measure.
+// Measure represents a unit of measure. The element value can be xml namespaced (xsd:Qname) or as plain text.
+// XML namespaced: <measure>iso4217:USD</measure>
+// plain text:     <measure>shares</measure>
+//
+// Note that if the value is XML namespaced, the namespace should be declared in the XML, but this parser does not validate that.
 // https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html#_4.8.2
 type Measure struct {
 	Value string `xml:",chardata"`
