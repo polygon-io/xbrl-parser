@@ -98,7 +98,7 @@ Let's look at what a simple unit like number of shares might look like:
 ```
 
 That's great and all...but the fact in the above example references a unit called "u1", 
-let's see what that more complex unit might look like:
+Let's see what that more complex unit might look like:
 ```xml
 <unit id="u1">
     <divide>
