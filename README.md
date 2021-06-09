@@ -127,4 +127,4 @@ hopefully it empowers you enough to understand the basics of how to get informat
 
 If you need to dig a little deeper, the models in this library are well documented and contain links to their definitions in the XBRL spec for your reference.
 Beyond that, the [official spec](https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html)
-is a bit large, but it's pretty clear and will almost definitely have the information you need (and probably a lot you don't need too!)
+is a bit large, but it's pretty clear and will almost definitely have the information you need (and probably a lot you don't need too!).
