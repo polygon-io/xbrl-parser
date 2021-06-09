@@ -21,21 +21,18 @@ To give you a head start, here's some basics about XBRL:
 
 At a high level, XBRL is an XML spec intended to be the standard for digital business reporting.
 
-I can't give you a more precise definition because "digital business reporting" can mean many things, 
-and XBRL needs to work for all of them.
+Digital business reporting is a very broad topic and encompasses many things from financial statements, to compliance reporting and more.
 
-XBRL is useless on its own, it relies on supplemental taxonomies that describe facts for specific use cases.
+XBRL is able to support so many use-cases by defining a framework and relying on supplemental taxonomies to describe schemas for specific use cases.
 For example the [US GAAP Financial Reporting Taxonomy](https://xbrl.us/xbrl-taxonomy/2021-us-gaap/) defines schemas for
 facts that relate to US GAAP financial reporting, which is used heavily in quarterly reports submitted to the SEC, among many other things.
-
-If you're here, I'm assuming you have a specific reason to want to parse XBRL documents, so I'm not going to go into more detail on this.
 
 Let's jump right into the main components of an XBRL document... 
 
 ### Facts
 
-The core of any XBRL document: facts (or [items](https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html#_4.6) as the spec calls them)
-represent a single business measurement.
+The core of XBRL documents are facts (also referred to as [items](https://www.xbrl.org/Specification/XBRL-2.1/REC-2003-12-31/XBRL-2.1-REC-2003-12-31+corrected-errata-2013-02-20.html#_4.6)).
+Facts represent a single business measurement.
 Here's an example of a fact whose schema is defined in the [US GAAP Financial Reporting Taxonomy](https://xbrl.us/xbrl-taxonomy/2021-us-gaap/):
 
 ```xml
@@ -46,7 +43,11 @@ A fact by itself is only a fragment of a useful piece of information.
 In the above example we see that earnings per share is `1.41`,
 but we need more context around when this fact was true, and how it was measured.
 
-Let's start with the context...
+In many cases (for example in an SEC quarterly report),
+there might be more than one instance of a `us-gaap:EarningsPerShareBasic` fact in the document (or any fact for that matter).
+This happens because a quarterly report compares EPS for the current quarter with EPS from previous quarter.  
+
+The above fact doesn't directly tell us in which quarter EPS was `1.41`. That's what contexts are for...
 
 ### Contexts
 
