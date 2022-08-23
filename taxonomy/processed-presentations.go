@@ -5,6 +5,12 @@ import (
 	"sort"
 )
 
+type ProcessedPresentation struct {
+	Definition string
+
+	Graph PresentationGraph
+}
+
 type PresentationNode struct {
 	Element        *XBRLTaxonomyElement // TODO make this work
 	PreferredLabel string

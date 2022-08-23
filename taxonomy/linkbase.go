@@ -24,8 +24,18 @@ type XLinkLinkBase struct {
 
 	Base string `xml:"base,attr"` // See spec section 3.5.2.2
 
+	RoleRefs []*XLinkRoleRef `xml:"roleRef"`
+
 	LabelLinks        []XLinkLabelExtendedLink        `xml:"labelLink"`
 	PresentationLinks []XLinkPresentationExtendedLink `xml:"presentationLink"`
+}
+
+type XLinkRoleRef struct {
+	XMLName xml.Name `xml:"roleRef"`
+
+	RoleURI string `xml:"roleURI,attr"`
+	HRef    string `xml:"href,attr"`
+	Type    string `xml:"type,attr"`
 }
 
 type XLinkPresentationExtendedLink struct {
@@ -99,6 +109,8 @@ func (t *XBRLTaxonomy) ResolveLocalLinkBases(rootDir string, recursive bool) err
 			continue
 		}
 
+		// TODO: process roleURI hrefs?
+
 		if err := t.processLocalLinkBase(rootDir, ref); err != nil {
 			return err
 
@@ -156,4 +168,14 @@ func (t *XBRLTaxonomy) ResolveLocator(locatorFile string, loc XLinkLocator) (*XB
 	}
 
 	return nil, fmt.Errorf("could not locate element for locator: %s", loc.HRef)
+}
+
+func (l *XLinkLinkBase) ResolveRoleRef(roleURI string) *XLinkRoleRef {
+	for _, ref := range l.RoleRefs {
+		if ref.RoleURI == roleURI {
+			return ref
+		}
+	}
+
+	return nil
 }

@@ -29,7 +29,18 @@ type XBRLAppInfo struct {
 
 	Refs []XLinkLinkBaseRef `xml:"linkbaseRef"`
 
+	RoleTypes []*XBRLRoleType  `xml:"roleType"`
 	LinkBases []*XLinkLinkBase `xml:"linkbase"`
+}
+
+type XBRLRoleType struct {
+	OriginalFile string `xml:"-"`
+
+	XMLName xml.Name `xml:"roleType"`
+
+	ID         string   `xml:"id,attr"`
+	Definition string   `xml:"definition"`
+	UsedOns    []string `xml:"usedOn"`
 }
 
 type XBRLTaxonomyImport struct {
@@ -101,6 +112,10 @@ func (t *XBRLTaxonomy) importLocalTaxonomy(rootDir string, i XBRLTaxonomyImport,
 		linkbase.OriginalFile = fileLocation
 	}
 
+	for _, roleType := range taxonomy.AppInfo.RoleTypes {
+		roleType.OriginalFile = fileLocation
+	}
+
 	if err := taxonomy.ResolveLocalLinkBases(path.Dir(fileLocation), true); err != nil {
 		return err
 	}
@@ -118,7 +133,7 @@ func (t *XBRLTaxonomy) importLocalTaxonomy(rootDir string, i XBRLTaxonomyImport,
 func (t *XBRLTaxonomy) CombineWith(other *XBRLTaxonomy) {
 	t.Elements = append(t.Elements, other.Elements...)
 
-	//t.AppInfo.Refs = append(t.AppInfo.Refs, other.AppInfo.Refs...)
+	t.AppInfo.RoleTypes = append(t.AppInfo.RoleTypes, other.AppInfo.RoleTypes...)
 	t.AppInfo.LinkBases = append(t.AppInfo.LinkBases, other.AppInfo.LinkBases...)
 }
 
