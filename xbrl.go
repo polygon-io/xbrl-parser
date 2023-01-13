@@ -65,7 +65,7 @@ func NewProcessedXBRL(raw RawXBRL) XBRL {
 func (x *XBRL) UnmarshalXML(d *xml.Decoder, start xml.StartElement) error {
 	var raw RawXBRL
 	if err := d.DecodeElement(&raw, &start); err != nil {
-		return nil
+		return err
 	}
 
 	*x = NewProcessedXBRL(raw)
